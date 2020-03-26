@@ -16,7 +16,7 @@ Homework solutions for the course "Machine learning" on coursera
 
 [gradientDescent.m](ex1/gradientDescent.m)
 
-[python??](ex1.ipynb)
+[python-solu](ex1.ipynb)
 
 <br>
 
@@ -32,4 +32,18 @@ Homework solutions for the course "Machine learning" on coursera
 
 [costFunctionReg.m](ex2/costFunctionReg.m)
 
-[python??](ex2.ipynb)
+[python-solu](ex2.ipynb)
+
+<br>
+
+## exercise-3
+
+> score: 100/100
+
+[lrCostFunction.m](ex3/lrCostFunction.m)
+
+[predictOneVsAll.m](ex3/predictOneVsAll.m)
+
+[predict.m](ex3/predict.m)
+
+[python-solu](ex3.ipynb)
