@@ -9,6 +9,7 @@ m = size(X, 1); % Number of training examples
 % You need to return the following variables correctly
 p = zeros(m, 1);
 
+
 % ====================== YOUR CODE HERE ======================
 h = sigmoid(X * theta);
 p = (h >= 0.5);

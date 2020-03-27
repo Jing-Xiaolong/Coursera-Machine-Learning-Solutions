@@ -6,13 +6,13 @@ function plotData(X, y)
 % Create New Figure
 figure; hold on;
 
+
 % ====================== YOUR CODE HERE ======================
 pos = find(y == 1);
 neg = find(y == 0);
 plot(X(pos,1), X(pos,2), 'k+','markersize',7);
 plot(X(neg,1), X(neg,2), 'ko', 'markerfacecolor','y','markersize',7);
 % =========================================================================
-
 
 
 hold off;

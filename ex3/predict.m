@@ -10,6 +10,7 @@ num_labels = size(Theta2, 1);
 % You need to return the following variables correctly 
 p = zeros(size(X, 1), 1);
 
+
 % ====================== YOUR CODE HERE ======================
 X = [ones(m,1) X];          % m x (n + 1) -> 5000x401
 z2 = X * Theta1';           % Theta1 - 25 x 401, z2 - 5000x25

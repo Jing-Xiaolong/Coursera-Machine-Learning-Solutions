@@ -17,6 +17,7 @@ p = zeros(size(X, 1), 1);
 % Add ones to the X data matrix
 X = [ones(m, 1) X];
 
+
 % ====================== YOUR CODE HERE ======================
 prob = 1 ./ (1 + exp(-X * all_theta'));     % m x K 维度
 [~, p] = max(prob, [], 2);                  % prob最大的

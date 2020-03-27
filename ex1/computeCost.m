@@ -9,9 +9,11 @@ m = length(y); % number of training examples
 % You need to return the following variables correctly 
 J = 0;
 
+
 % ====================== YOUR CODE HERE ======================
 yt = X * theta;
 J = 1 / (2*m) * sum((y - yt) .^ 2);
 % =========================================================================
+
 
 end

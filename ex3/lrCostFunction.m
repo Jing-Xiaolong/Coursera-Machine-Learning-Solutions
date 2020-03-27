@@ -12,6 +12,7 @@ m = length(y); % number of training examples
 J = 0;
 grad = zeros(size(theta));
 
+
 % ====================== YOUR CODE HERE ======================
 h = 1 ./ (1 + exp(-X * theta));
 J = -1 / m * (y' * log(h) + (1 - y)' * log(1 - h)) + lambda / (2*m) * sum(theta(2:end) .^ 2);
