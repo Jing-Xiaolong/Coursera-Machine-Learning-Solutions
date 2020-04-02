@@ -17,5 +17,6 @@ Homework solutions for the course "Machine learning" on coursera
 |ex5|Regularization and Bias/Variance|[linearRegCostFunction.m](ex5/linearRegCostFunction.m)<br>[learningCurve.m](ex5/learningCurve.m)<br>[polyFeatures.m](ex5/polyFeatures.m)<br>[validationCurve.m](ex5/validationCurve.m)|[ex5.ipynb](ex5.ipynb)|
 |ex6|SVM|[gaussianKernel.m](ex6/gaussianKernel.m)<Br>[dataset3Params.m](ex6/dataset3Params.m)<br>[processEmail.m](ex6/processEmail.m)<br>[emailFeatures.m](ex6/emailFeatures.m)|[ex6.ipynb](ex6.ipynb)|
 |ex7|K-means Clustering and PCA|[findClosestCentroids.m](ex7/findClosestCentroids.m)<br>[computeCentroids.m](ex7/computeCentroids.m)<br>[kMeansInitCentroids.m](ex7/kMeansInitCentroids.m)<Br>[pca.m](ex7/pca.m)<br>[projectData.m](ex7/projectData.m)<br>[recoverData.m](ex7/recoverData.m)|[ex7.ipynb](ex7.ipynb)|
+|ex8|Anomaly Detection <br>& Recommender Systems|[estimateGaussian.m](ex8/estimateGaussian.m)<br>[selectThreshold.m](ex8/selectThreshold.m)<br>[cofiCostFunc.m](ex8/cofiCostFunc.m)|[ex8.ipynb](ex8.ipynb)|
 
 python notebook格式的习题见[仓库](https://github.com/dibgerge/ml-coursera-python-assignments)
